@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619088027216' stop='1619088031860'>
+    <name>Simple Calculator </name>
+    <title>Simple Calculator </title>
+    <test-cases>
+        <test-case start='1619088027219' status='passed' stop='1619088031857'>
+            <name>Mouse Movement Operations using Actions</name>
+            <title>Mouse Movement Operations using Actions</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

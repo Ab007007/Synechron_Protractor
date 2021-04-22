@@ -21,7 +21,14 @@ exports.config = {
   framework: 'jasmine',
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['development.js'],
+  specs: ['test/AdditionTest.js'],
+
+  suites:
+  {
+    smoke : ['ActionsDemo.js', 'MathematicalOperations.js'],
+    regression : ['DataDrivenTestUsingJson.js', 'printAllRows.js', 'ExplicitWaitDemo.js'],
+    adhoc : ['ResolvePromiseDemo.js', 'BrowserOperations.js']
+  },
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
     defaultTimeoutInterval: 30000
@@ -81,25 +88,25 @@ exports.config = {
       new HTMLReport().from('xmlresults.xml', testConfig);
     });
     var fs = require('fs-extra');
- 
-fs.emptyDir('target/screenshots/', function (err) {
-        console.log(err);
+
+    fs.emptyDir('target/screenshots/', function (err) {
+      console.log(err);
     });
- 
+
     jasmine.getEnv().addReporter({
-        specDone: function(result) {
-            if (result.status == 'failed') {
-                browser.getCapabilities().then(function (caps) {
-                    var browserName = caps.get('browserName');
- 
-                    browser.takeScreenshot().then(function (png) {
-                        var stream = fs.createWriteStream('target/screenshots/' + browserName + '-' + result.fullName+ '.png');
-                        stream.write(new Buffer(png, 'base64'));
-                        stream.end();
-                    });
-                });
-            }
+      specDone: function (result) {
+        if (result.status == 'failed') {
+          browser.getCapabilities().then(function (caps) {
+            var browserName = caps.get('browserName');
+
+            browser.takeScreenshot().then(function (png) {
+              var stream = fs.createWriteStream('target/screenshots/' + browserName + '-' + result.fullName + '.png');
+              stream.write(new Buffer(png, 'base64'));
+              stream.end();
+            });
+          });
         }
+      }
     });
   }
 

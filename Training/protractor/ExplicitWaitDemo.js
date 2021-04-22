@@ -21,14 +21,5 @@ describe('Simple Calculator ', function () {
 
     });
 
-    it('Drag and Drop Demo', () => {
-        browser.waitForAngularEnabled(false);
-        browser.get('https://jqueryui.com/droppable/');
-        // switch to frame element
-        browser.actions().
-            dragAndDrop(element(by.id('draggable')), element(by.id('droppable'))).
-            perform();
-
-    });
 });
 

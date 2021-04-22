@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="2" time="20.781">
- <testsuite name="Simple Calculator " timestamp="2021-04-22T14:59:23" hostname="localhost" time="20.781" errors="0" tests="2" skipped="0" disabled="0" failures="0">
-  <testcase classname="Simple Calculator " name="Addition Of Numbers" time="14.579" />
-  <testcase classname="Simple Calculator " name="Addition Of Numbers" time="6.198" />
+<testsuites disabled="0" errors="0" failures="1" tests="6" time="11.212">
+ <testsuite name="Simple Calculator " timestamp="2021-04-22T16:10:27" hostname="localhost" time="4.643" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Simple Calculator " name="Mouse Movement Operations using Actions" time="4.637" />
+ </testsuite>
+ <testsuite name="Simple Calculator " timestamp="2021-04-22T16:10:31" hostname="localhost" time="6.569" errors="0" tests="5" skipped="0" disabled="0" failures="1">
+  <testcase classname="Simple Calculator " name="Addition Of Numbers" time="2.064" />
+  <testcase classname="Simple Calculator " name="Substraction Of Numbers - Using Chain locators" time="1.254" />
+  <testcase classname="Simple Calculator " name="Multiplication  Of Numbers  - Using Chain locators" time="0.91" />
+  <testcase classname="Simple Calculator " name="Division Of Numbers  - Using Chain locators" time="1.136" />
+  <testcase classname="Simple Calculator " name="Negative Scenario" time="1.199">
+   <failure type="toEqual" message="Expected NaN to equal 10."><![CDATA[Error: Failed expectation
+    at F:\Synechron_Protractor\Training\protractor\MathematicalOperations.js:82:29
+    at elementArrayFinder_.then (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\element.js:804:32)
+    at ManagedPromise.invokeCallback_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)]]>
+   </failure>
+  </testcase>
  </testsuite>
 </testsuites>

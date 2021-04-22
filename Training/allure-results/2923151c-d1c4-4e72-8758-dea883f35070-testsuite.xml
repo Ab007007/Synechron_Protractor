@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619085472626' stop='1619085509853'>
+    <name>Simple Calculator </name>
+    <title>Simple Calculator </title>
+    <test-cases>
+        <test-case start='1619085472630' status='passed' stop='1619085484526'>
+            <name>Addition Of Numbers</name>
+            <title>Addition Of Numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619085484527' status='passed' stop='1619085491871'>
+            <name>Addition Of Numbers</name>
+            <title>Addition Of Numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619085491871' status='passed' stop='1619085497898'>
+            <name>Addition Of Numbers</name>
+            <title>Addition Of Numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619085497898' status='passed' stop='1619085503808'>
+            <name>Addition Of Numbers</name>
+            <title>Addition Of Numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619085503808' status='passed' stop='1619085509852'>
+            <name>Addition Of Numbers</name>
+            <title>Addition Of Numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

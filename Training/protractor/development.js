@@ -17,6 +17,8 @@ describe('Simple Calculator ', function () {
             {num1 : datafileObj.userinputs.thirdNum, num2 : datafileObj.userinputs.fourthNum},
             {num1 : datafileObj.userinputs.thirdNum, num2 : datafileObj.userinputs.fourthNum},
             {num1 : datafileObj.userinputs.firstNum, num2 : datafileObj.userinputs.secondNum},
+            {num1 : 200, num2 : 300},
+            
     ], function(data){
         it('Addition Of Numbers', function () {
 
@@ -29,7 +31,6 @@ describe('Simple Calculator ', function () {
                 console.log("Summ of two numbers is " + result);
     
             });
-    
     
         });
     })

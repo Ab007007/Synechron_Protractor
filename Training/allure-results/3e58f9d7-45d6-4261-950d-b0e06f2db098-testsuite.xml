@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619085278172' stop='1619085308818'>
+    <name>Simple Calculator </name>
+    <title>Simple Calculator </title>
+    <test-cases>
+        <test-case start='1619085278173' status='passed' stop='1619085290775'>
+            <name>Addition Of Numbers</name>
+            <title>Addition Of Numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619085290776' status='passed' stop='1619085296661'>
+            <name>Addition Of Numbers</name>
+            <title>Addition Of Numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619085296662' status='passed' stop='1619085302917'>
+            <name>Addition Of Numbers</name>
+            <title>Addition Of Numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619085302917' status='passed' stop='1619085308816'>
+            <name>Addition Of Numbers</name>
+            <title>Addition Of Numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
