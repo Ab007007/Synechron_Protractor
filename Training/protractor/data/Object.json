@@ -1,0 +1,19 @@
+{
+    "url": "http://juliemr.github.io/protractor-demo/",
+    "locators": {
+        "homepage" : {
+            "firstnum": "first",
+            "secondnum": "second",
+            "gobutton": "Go!",
+            "result" : "latest",
+            "operator" : "operator",
+            "minus" : "option[value='SUBTRACTION']"
+        }
+    },
+    "userinputs" : {
+        "firstNum" : 5,
+        "secondNum" : 10,
+        "thirdNum" : 15,
+        "fourthNum" : 20
+    }
+}

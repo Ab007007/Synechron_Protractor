@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619076803742' stop='1619076834597'>
+    <name>Simple Calculator </name>
+    <title>Simple Calculator </title>
+    <test-cases>
+        <test-case start='1619076803743' status='passed' stop='1619076816180'>
+            <name>Addition Of Numbers</name>
+            <title>Addition Of Numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619076816181' status='passed' stop='1619076822348'>
+            <name>Substraction Of Numbers - Using Chain locators</name>
+            <title>Substraction Of Numbers - Using Chain locators</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619076822348' status='passed' stop='1619076828377'>
+            <name>Multiplication  Of Numbers  - Using Chain locators</name>
+            <title>Multiplication  Of Numbers  - Using Chain locators</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619076828377' status='passed' stop='1619076834595'>
+            <name>Division Of Numbers  - Using Chain locators</name>
+            <title>Division Of Numbers  - Using Chain locators</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
